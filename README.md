@@ -1,4 +1,3 @@
-![image](https://github.com/vmdGH/ml_fastapi_hw/assets/118124570/82c4cf47-1d95-435b-a1f7-2fddf6f4e860)# ml_fastapi_hw
 ### by Matvey Vasilev
 Machine Learning Homework
 
