@@ -1,5 +1,16 @@
 # ml_fastapi_hw
+### by Matvey Vasilev
 Machine Learning Homework
+
+### Список файлов
+0. HW1_Regression_with_inference.ipynb : ноутбук с решенным домашним заданием
+1. main.py : Основная программа с реализацией сервиса на FastApi
+2. models.py : Файл с основными классами
+3. preprocessing.py : Программа для нормализации числовых признаков, кодирования категориальных признаков и загрузки обученной модели
+4. encoder_data : энкодер, обученный в ноутбуке
+5. scaler_data : скалер, обученный в ноутбуке
+6. fitted_model : модель, обученная в ноутбуке
+7. predicted_items : тесторые данные для задания 2
 
 
 ### Запрос 1
@@ -28,3 +39,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
   -F 'file=@predict_items.csv;type=text/csv'
+
+### Комментарии к работе
+Не хватило времени подготовить данные и подобрать гиперпараметры, чтобы повысить обобщающую способность алгоритма
+Сервис на FastApi получилось реализовать в полной мере, 
