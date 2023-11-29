@@ -1,4 +1,4 @@
-# ml_fastapi_hw
+![image](https://github.com/vmdGH/ml_fastapi_hw/assets/118124570/82c4cf47-1d95-435b-a1f7-2fddf6f4e860)# ml_fastapi_hw
 ### by Matvey Vasilev
 Machine Learning Homework
 
@@ -32,6 +32,8 @@ curl -X 'POST' \
     "torque": "91Nm@ 4250rpm",
     "seats": 5.0
 }'
+![image](https://github.com/vmdGH/ml_fastapi_hw/assets/118124570/9fe6b9aa-aefb-4814-b55c-c798705bed55)
+
 
 ### Запрос 2
 curl -X 'POST' \
@@ -39,7 +41,10 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
   -F 'file=@predict_items.csv;type=text/csv'
+![image](https://github.com/vmdGH/ml_fastapi_hw/assets/118124570/ef25de20-88e7-4d69-b329-a4e04fe66c85)
 
 ### Комментарии к работе
-* Не хватило времени подготовить данные и подобрать гиперпараметры, чтобы повысить обобщающую способность алгоритма
-* Сервис на FastApi получилось реализовать в полной мере, 
+1. Не хватило времени подготовить данные и подобрать гиперпараметры, чтобы повысить обобщающую способность алгоритма
+2. Лучший алгоритм работает с лучшей метрикой r2 примерно равной 0.6
+3. Сервис на FastApi получилось реализовать в полной мере
+
