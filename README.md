@@ -1,5 +1,6 @@
-### by Matvey Vasilev
-Machine Learning Homework
+### Machine Learning Homework
+by Matvey Vasilev
+
 
 ### Список файлов
 0. HW1_Regression_with_inference.ipynb : ноутбук с решенным домашним заданием
