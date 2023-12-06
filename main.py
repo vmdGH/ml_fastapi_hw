@@ -58,11 +58,7 @@ def upload(file: UploadFile = File(...)):
         d1.append(row_dict)
 
     json_d1 = json.dumps(d1)
-    items_list = [Item.parse_obj(item) for item in d1]
+    items_list = [Item_predicted.model_validate(item) for item in d1]
 
     return items_list
-
-
-class Items(BaseModel):
-    objects: List[Item]
 
